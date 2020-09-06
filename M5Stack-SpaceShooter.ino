@@ -74,9 +74,9 @@ char flamesImg[] = "RZZZZZZZZZZRRZRYYRRYYRZRRZRYYRRYYRZRZZRYRZZRY"
 //alien
 const int alienImgW = 14;
 const int alienImgH = 11;
-char alienImg[] = "GGGZZZZZZZZGGGZZZGZZZZZZGZZZZZGGGGGGGGGGZZZGGG"
- "GGGGGGGGGZGGGZGGGGGGZGGGGGGZZGGGGZZGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
- "GGGGZZZGGZZGGZZZGZGGZGGZZGGZGGZZZZZZGZZGZZZZZ";
+char alienImg[] = "ZYYYYYYYYYYYYZZYYYYYYYYYYYYZZYYYYYYYYYYYYZZYYG"
+ "GGYYGGGYYZZYYZZZYYZZZYYZZYYZZZYYZZZYYZZYYZZZYYZZZYYZZYYGGGYYGGG"
+ "YYZZZYYYYYYYYYYZZZZZYYYZZYYYZZZ";
 //ship 'sploded
 const int splodedImgW = 14;
 const int splodedImgH = 16;
@@ -91,7 +91,7 @@ void setup() {
   memset(aFireY, 0, 5);
   memset(aFireAge, 0, 5);
   M5.begin();
-  M5.Lcd.setRotation(0);//M5.Lcd.setRotation(3);
+  M5.Lcd.setRotation(1);//M5.Lcd.setRotation(3);
   M5.Lcd.fillScreen(ILI9341_BLACK);
   M5.Lcd.setTextColor(0x5E85);
   M5.Lcd.setTextSize(4);
