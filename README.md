@@ -1,4 +1,4 @@
-# M5Stack-SpaceShooter
+# M5Stack-SpaceShooter (bitcoinheiros edition)
 <br />
 <br />
 
@@ -7,12 +7,12 @@
 </p>
 
 
-## About
+## Sobre
 
-- Space Invaders for the M5Stack.
+- Space Invaders para o M5Stack (ESP32).
 
-- Written by Tyler Edwards for the Hackerbox #0020 badge -  https://github.com/HailTheBDFL/
+- Escrito por Tyler Edwards para o Hackerbox #0020 badge -  https://github.com/HailTheBDFL/
 
-- Ported to the M5Stack by [macsbug](https://macsbug.wordpress.com/2018/01/12/esp32-spaceshooter-with-m5stack/)
+- Portado para o M5Stack por [macsbug](https://macsbug.wordpress.com/2018/01/12/esp32-spaceshooter-with-m5stack/)
 
 <br />
